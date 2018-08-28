@@ -14,7 +14,7 @@ public class RegisterForm implements Parcelable {
         this.phoneNo = phoneNo;
     }
 
-    protected RegisterForm(Parcel in) {
+    public RegisterForm(Parcel in) {
         user = in.readString();
         pass = in.readString();
         phoneNo = in.readInt();
